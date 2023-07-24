@@ -1,0 +1,251 @@
+/* Common CSS start */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #28253f;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+/* Common CSS end */
+
+/* header start */
+header {
+    padding: 20px 0 80px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+    overflow: hidden;
+}
+
+.logo {
+    width: 15%;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    margin-top: 11px;
+    width: 45%;
+    float: left;
+}
+
+.menu ul {
+    margin: 0;
+    float: left;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    padding: 0px 20px;
+    display: inline-block;
+    color: #28253f;
+    font-weight: 700;
+    text-decoration: none;
+    transition: .33s ease;
+}
+
+.menu ul li :first-child a {
+    padding-left: 2%;
+}
+
+.menu ul li a:hover {
+    color: #ff6161;
+}
+
+.button {
+    width: 20%;
+    float: right;
+    margin-top: 6px;
+    margin-right: 0;
+}
+
+.button button {
+    float: right;
+
+}
+
+.btn {
+    padding: 10px 4%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #ff6161;
+    border: none;
+    border-radius: 5px;
+}
+/* header end */
+
+/* banner start */
+.banner {
+    padding: 40px 0 80px;
+}
+
+.content {
+    margin: 30px 0;
+    width: 49%;
+    float: left;
+}
+
+.content h1 {
+    margin: 0;
+    font-size: 45px;
+    line-height: 60px;
+}
+
+.content p {
+    margin: 30px 0 20px;
+    color: #a1a3aa;
+}
+
+.b_icon {
+    width: 4%;
+}
+
+.b_icon img {
+    width: 100%;
+}
+
+.b_img {
+    width: 49%;
+    float: right;
+}
+
+.b_img img {
+    width: 100%;
+}
+
+/* banner end */
+
+/* demo start */
+.demo {
+    padding: 40px 0 80px;
+}
+
+.container2 {
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.d_h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.d_p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 40%;
+    margin: 0 Auto;
+    padding: 10px 0 30px;
+}
+
+.d_content {
+    width: 23.5%;
+    margin-right: 2%;
+    float: left;
+}
+
+.d_content:last-child {
+    margin-right: 0;
+}
+
+.d_content p {
+    color: #434749;
+    font-weight: 700;
+    margin: 15px 0 0 0;
+}
+
+.d_img img {
+    width: 100%;
+    box-shadow: 0px 1px 20px 0px #5c5972;
+}
+
+/* demo end */
+
+/* feature start */
+.features {
+    text-align: center;
+    padding: 40px 0 80px;
+}
+
+.item {
+    overflow: hidden;
+}
+
+.icon {
+    width: 29%;
+    min-height: 230px;
+    padding: 20px 15px;
+    margin-right: 2%;
+    margin-top: 20px;
+    float: left;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.icon:last-child {
+    margin-right: 0;
+}
+
+.icon:nth-child(5) {
+    margin-right: 0;
+}
+
+.icon h2 {
+    margin: 10px 0;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.icon p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.i_img {
+    margin: 0 auto;
+    width: 25%;
+}
+
+.i_img img {
+    width: 100%;
+}
+
+/* feature end */
+
+/* footer start */
+footer {
+    background-color: #28253f;
+    text-align: center;
+    overflow: hidden;
+    padding: 40px 0;
+    color: #f4f4f4;
+
+}
+
+footer h1 {
+    padding: 0 350px 25px 350px;
+}
+
+footer p{
+    font-size: 14px;
+}
+
+span {
+    font-weight: 700;
+}
+/* footer end*/
